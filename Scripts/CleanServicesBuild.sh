@@ -8,7 +8,7 @@ EMULATOR_DIR="Emulators"
 cd ${MMS_SCRIPTS_DIR}
 /bin/bash CleanMovementManagementSystemBuild.sh ${1}
 
-cd  ${MMS_SCRIPTS_DIR}
+cd ${RG_SCRIPTS_DIR}
 /bin/bash CleanRemoteGatewayBuild.sh ${1}
 
 cd ${SF_SCRIPTS_DIR}
